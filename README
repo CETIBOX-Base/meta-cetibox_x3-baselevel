@@ -1,0 +1,61 @@
+This README file contains information on the contents of the
+cetibox_x3-baselevel layer.
+
+Please see the corresponding sections below for details.
+
+
+Dependencies
+============
+
+This layer depends on:
+
+  URI: https://github.com/CETIBOX-Base/poky
+  layers: meta, meta-poky, meta-yocto-bsp
+  branch: rocko-cetibox
+
+  URI: https://github.com/CETIBOX-Base/meta-openembedded
+  layers: meta-oe, meta-python, meta-networking
+  branch: rocko
+
+  URI: https://github.com/CETIBOX-Base/meta-renesas
+  layers: meta-rcar-gen3
+  branch: rocko
+
+  URI: https://github.com/CETIBOX-Base/meta-linaro
+  layers: meta-linaro-toolchain, meta-optee
+  branch: rocko
+
+  URI: ssh://git@pfbitbucket.corp.cetitec.com:7999/cbx3bl/meta-cetibox_x3-base
+  layers: meta-cetibox_x3
+  branch: develop
+
+Patches
+=======
+
+Please submit any patches against the cetibox_x3 layer to the CETiBOX X3
+development team (cetibox.development@cetitec.com) and cc: the maintainer:
+
+Maintainer: Matthias Blankertz <matthias.blankertz@cetitec.com>
+
+
+Table of Contents
+=================
+
+  I. Adding the cetibox_x3-baselevel layer to your build
+ II. Misc
+
+
+I. Adding the cetibox_x3-baselevel layer to your build
+=================================================
+
+Setting up your bitbake environment with the environment variable 
+TEMPLATECONF=/path/to/yocto/meta-cetibox_x3-baselevel/conf 
+will configure your bitbake environment correctly to build the cetibox
+base level images.
+
+
+II. Misc
+========
+
+For further documentation please see https://docu.cetitecgmbh.com/CETIBOX-Base
+
