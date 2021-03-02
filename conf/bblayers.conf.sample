@@ -17,5 +17,6 @@ BBLAYERS ?= " \
   ##OEROOT##/../meta-openembedded/meta-filesystems \
   ##OEROOT##/../meta-cetibox_x3 \
   ##OEROOT##/../meta-cetibox_x3-baselevel \
+  ##OEROOT##/../meta-virtualization \
   "
 
